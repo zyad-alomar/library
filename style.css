@@ -1,0 +1,35 @@
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+body{
+    background-color: brown;
+    background-image: url(background.jpg);
+}
+header{
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    width: 99%;
+    height: 60px;
+    gap: 300px;
+    --add : 120px;
+
+}
+header h1{
+    margin-left: calc(300px + var(--add));
+    
+}
+
+#add{
+    border-radius: 50px;
+    padding:10px;
+    width: var(--add);
+    letter-spacing: 1px;
+    font-family:sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    color: white;
+    background-color: darkcyan;
+}
