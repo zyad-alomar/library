@@ -28,8 +28,10 @@ let ebook = new book();
       let element = document.createTextNode(array[0][key]);
       div.appendChild(element);
       container.appendChild(div);
-
     }
+    let img = document.createElement("img");
+    img.src = ebook.url;
+    container.appendChild(img);
     main.appendChild(container);
  });
 });

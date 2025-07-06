@@ -1,4 +1,6 @@
-
+img{
+    max-width: 70%;
+}
 body{
     background-color: brown;
     background-image: url(background.jpg);
